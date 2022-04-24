@@ -32,6 +32,15 @@ svg {
 
 }
 
+svg:hover {
+
+    transform: scale(1.2);
+    transition: ease-in-out 0.1s;
+    fill: rgb(66,82,185);
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+}
+
 .card {
 
     position: absolute;
