@@ -1,0 +1,145 @@
+body {
+
+    background-color: rgb(173, 172, 172);
+
+}
+
+h1 {
+
+    font-family: 'Atomic Age';
+    font-size: 42px;
+    color: black;
+    text-shadow:  0px 5px 15px rgba(3, 3, 3, 0.556);
+
+}
+
+h3 {
+
+    font-size: 21px;
+
+}
+
+h2, h3, h4 {
+
+    font-family: Aclonica;
+    color: black;
+
+}
+
+svg {
+
+    fill: rgb(48,107,187);
+
+}
+
+.card {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 660px;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 20px;
+    box-shadow: rgba(3, 3, 3, 0.556) 0px 5px 15px;
+    z-index: 1;
+    
+}
+
+.picture-box {
+
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px 20px 0 0 ;
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172,193,1) 100%);
+    color: #fff;
+    z-index: 1;
+
+}
+
+.userImg {
+
+    display: block;
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    left: 0;
+    right: 0;
+    top: 2vh;
+    margin: auto auto 0;
+    border-radius: 50%;
+    border-width: 15px;
+    border-style:solid;
+    border-color: rgba(7, 79, 174, 0.487);
+    box-shadow: rgba(3, 3, 3, 0.556) 0px 5px 15px;
+
+}
+
+.waves-div {
+
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    top: 245px;
+    z-index: 10;
+    
+}
+
+.info {
+
+    position: absolute;
+    width: 400px;
+    height: 342px;
+    top: 318px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+    z-index: 1;
+
+}
+
+.footer {
+
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 105px;
+    top: 555px;
+    border-radius: 0 0 20px 20px;
+    z-index: 10;
+
+}
+
+.svg1 {
+
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+
+}
+
+.svg2 {
+
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+
+}
+
+.svg3 {
+
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+
+}
+
+.svg4 {
+    
+    position: relative;
+    display: inline-block;
+    z-index: 5;
+
+}
